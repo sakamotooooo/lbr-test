@@ -1,0 +1,55 @@
+body {
+  font-family: "Noto Sans JP";
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+
+.works-details__header {
+  background-color: #111;
+}
+
+.works-details__main {
+  margin-top: 50px;
+  margin-top: 3.125rem;
+}
+
+.works-details {
+  margin-top: 53px;
+  margin-top: 3.3125rem;
+}
+
+.works-details__inner {
+  margin-left: 20px;
+  margin-left: 1.25rem;
+}
+
+.works-details__title {
+  font-size: 20px;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  line-height: 1.75;
+}
+
+.works-details__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works-details__date {
+  letter-spacing: 0.025em;
+}
+/*# sourceMappingURL=works-details.css.map */
